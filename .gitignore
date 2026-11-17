@@ -1,0 +1,12 @@
+# Buildroot output dir: track only reproducible config
+/*
+!/.gitignore
+!/README.md
+!/cm5_defconfig
+!/images/
+/images/*
+!/images/genimage.cfg
+!/images/rpi-firmware/
+/images/rpi-firmware/*
+!/images/rpi-firmware/config.txt
+!/images/rpi-firmware/cmdline.txt
